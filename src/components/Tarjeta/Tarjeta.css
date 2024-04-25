@@ -1,0 +1,40 @@
+
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 21rem;
+    box-sizing: border-box;
+    padding: 1rem 0;
+}
+
+.card-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-icon-bg{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-bg-color-2);
+}
+
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    padding-left: 2rem;
+
+    & :first-child{
+        padding-bottom: 0.5rem;
+    }
+}
+
+

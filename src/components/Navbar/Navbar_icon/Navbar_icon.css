@@ -1,0 +1,14 @@
+
+.Navbar-icon{
+    display: flex;
+    flex-direction: column;
+    height: 3rem;
+    width: 3rem;
+}
+
+.Navbar-icon-Menu, .Navbar-icon-Text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
