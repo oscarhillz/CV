@@ -35,6 +35,55 @@
         justify-content: center;
         text-align: center;
     }
-    
+}
+
+.Drawer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    height: 100%;
+    background-color: var(--main-bg-color-3);
+    z-index: 1;
+    border-radius: 20px;
+
+    & .DrawerHeader{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 1rem 2rem;
+        color: var( --main-txt-color);
+
+        & .DrawerHeaderIMG{
+            width: 4rem;
+            height: 4rem;
+            border-radius: 50%;
+            background-image: url('../../assets/IMG/FotoOscarCirculo.jpeg');
+            background-size: cover;
+        }
+
+        & h2{
+            margin-left: 1rem;
+        }
+    }
+
+    & .DrawerLinks{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        & a{
+            padding-left: 2rem;
+        }
+    }
+
+    & .DrawerFooter{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 4rem;
+    }
 }
 
