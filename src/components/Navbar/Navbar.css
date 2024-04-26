@@ -45,7 +45,7 @@
     height: 100%;
     background-color: var(--main-bg-color-3);
     z-index: 1;
-    border-radius: 20px;
+    border-radius: 0 20px 20px 0;
 
     & .DrawerHeader{
         display: flex;

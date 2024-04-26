@@ -5,6 +5,10 @@ import HouseIcon from '@mui/icons-material/House';
 import FaceIcon from '@mui/icons-material/Face';
 import AccountTreeIcon from '@mui/icons-material/AccountTree';
 import MenuIcon from '@mui/icons-material/Menu';
+import SettingsSuggestIcon from '@mui/icons-material/SettingsSuggest';
+import ContactPageIcon from '@mui/icons-material/ContactPage';
+
+
 import XIcon from '@mui/icons-material/X';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -22,7 +26,7 @@ export default function Navbar() {
   const DrawerIcons = [<XIcon />, <LinkedInIcon />, <InstagramIcon />, <GithubIcon />];
   const DrawerIconsLinks = ['https://twitter.com/oscarhillz' ,'https://www.linkedin.com/in/oscarhillz', 'https://www.instagram.com/oscarhillz/', 'https://www.github.com/oscarhillz/']
   const quickLinks = ['Home', 'About', 'Projects', 'Services', 'Contact'];
-  const quickLinksIcons = [<HouseIcon />, <FaceIcon />, <AccountTreeIcon />, <AccountTreeIcon />, <AccountTreeIcon />]
+  const quickLinksIcons = [<HouseIcon />, <FaceIcon />, <AccountTreeIcon />, <SettingsSuggestIcon />, <ContactPageIcon />]
 
   const [isDrawerOpen, setIsDrawerOpen] = useState(false)
 
