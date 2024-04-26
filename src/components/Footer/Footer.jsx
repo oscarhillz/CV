@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
   const icons = [<XIcon />, <LinkedInIcon />, <InstagramIcon />, <GithubIcon />];
+  const iconsLinks = ['https://twitter.com/oscarhillz' ,'https://www.linkedin.com/in/oscarhillz', 'https://www.instagram.com/oscarhillz/', 'https://www.github.com/oscarhillz/']
   const quickLinks = ['Home', 'About', 'Projects', 'Services', 'Contact'];
 
 
@@ -26,8 +27,8 @@ export default function Footer() {
       </div>
 
       <div className="footer-icons">
-        {icons.map((icon) => (
-          <div key={icon}>{icon}</div>
+        {icons.map((icon, index) => (
+          <Link key={icon} target="_blank" to={iconsLinks[index] }>{icon}</Link>
         ))}
       </div>
 
