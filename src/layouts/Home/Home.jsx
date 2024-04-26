@@ -1,6 +1,6 @@
+import './Home.css'
 import Footer from '../../components/Footer/Footer'
 import Tarjeta from '../../components/Tarjeta/Tarjeta';
-import './Home.css'
 import Button from '@mui/material/Button';
 import SearchIcon from '@mui/icons-material/Search';
 import { Container } from '@mui/material';
@@ -8,14 +8,12 @@ import Navbar from '../../components/Navbar/Navbar';
 
 
 
-
-
 export default function Home() {
   return (
     <>
-    <body>
-      <Navbar />
+    <Navbar />
 
+    <body>
       <div className="Hero">
         <h2>Think Create Improve</h2>
         <h1>I build custom apps you will love!</h1>
@@ -29,12 +27,12 @@ export default function Home() {
       <div className="Services">
         <h1>Everything you need to reach the next level</h1>
         <div className="Services-array">
-          <Tarjeta titulo={'Business Strategy'} description={'abcdfdsfgsdfsdabcdfds'} icon={<SearchIcon sx={{ fontSize: 40 }}/>}/>
-          <Tarjeta titulo={'Business Strategy'} description={'abcdfdsfgsdfsdabcdfds'} icon={<SearchIcon sx={{ fontSize: 40 }}/>}/>
-          <Tarjeta titulo={'Business Strategy'} description={'abcdfdsfgsdfsdabcdfds'} icon={<SearchIcon sx={{ fontSize: 40 }}/>}/>
-          <Tarjeta titulo={'Business Strategy'} description={'abcdfdsfgsdfsdabcdfds'} icon={<SearchIcon sx={{ fontSize: 40 }}/>}/>
-          <Tarjeta titulo={'Business Strategy'} description={'abcdfdsfgsdfsdabcdfds'} icon={<SearchIcon sx={{ fontSize: 40 }}/>}/>
-          <Tarjeta titulo={'Business Strategy'} description={'abcdfdsfgsdfsdabcdfds'} icon={<SearchIcon sx={{ fontSize: 40 }}/>}/>
+          <Tarjeta titulo={'App Build'}         description={'abcdfdsfgsdfsdabc'} icon={<SearchIcon sx={{ fontSize: 40 }}/>}/>
+          <Tarjeta titulo={'Business Strategy'} description={'abcdfdsfgsdfsdabc'} icon={<SearchIcon sx={{ fontSize: 40 }}/>}/>
+          <Tarjeta titulo={'Business Strategy'} description={'abcdfdsfgsdfsdabc'} icon={<SearchIcon sx={{ fontSize: 40 }}/>}/>
+          <Tarjeta titulo={'Business Strategy'} description={'abcdfdsfgsdfsdabc'} icon={<SearchIcon sx={{ fontSize: 40 }}/>}/>
+          <Tarjeta titulo={'Business Strategy'} description={'abcdfdsfgsdfsdabc'} icon={<SearchIcon sx={{ fontSize: 40 }}/>}/>
+          <Tarjeta titulo={'Support'}           description={'abcdfdsfgsdfsdabc'} icon={<SearchIcon sx={{ fontSize: 40 }}/>}/>
         </div>
       </div>
 
@@ -54,6 +52,7 @@ export default function Home() {
           <p>I understand your needs, ensuring you get a product you are happy with.</p>
           testimony
         </ Container>
+
       </div>
 
         {/* <div className="Contact">
