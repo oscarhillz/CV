@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 import SearchIcon from '@mui/icons-material/Search';
 import { Container } from '@mui/material';
 import Navbar from '../../components/Navbar/Navbar';
+import Testimonio from '../../components/Testimonio/Testimonio';
 
 
 
@@ -50,8 +51,10 @@ export default function Home() {
         <h1>Check some reviews</h1>
         <Container>
           <p>I understand your needs, ensuring you get a product you are happy with.</p>
-          testimony
         </ Container>
+        <Testimonio nombre={'Oscar Hill'} cargo={'CEO'} />
+        <Testimonio nombre={'Oscar Hill'} cargo={'CEO'} />
+        <Testimonio nombre={'Oscar Hill'} cargo={'CEO'} />
 
       </div>
 
