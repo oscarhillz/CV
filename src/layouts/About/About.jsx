@@ -11,8 +11,9 @@ export default function About() {
     
     <body>
       <div className="AboutHeader">
-        <h1>Hi!, Im Oscar</h1>
-        <div className="AboutImg"></div>
+        <h2>Welcome!</h2>
+        <h1>I'm Oscar</h1>
+        <div className="AboutHeaderIMG"></div>
       </div>
 
       <Container>

@@ -28,14 +28,14 @@ export default function Footer() {
 
       <div className="footer-icons">
         {icons.map((icon, index) => (
-          <Link key={icon} target="_blank" to={iconsLinks[index] }>{icon}</Link>
+          <Link key={index} target="_blank" to={iconsLinks[index] }>{icon}</Link>
         ))}
       </div>
 
       <div className="footer-quicklinks">
         <h2>Quick Links</h2>
-          {quickLinks.map((link) => (
-            <Link key={link} to={`/CV/${link}`}>{link}</Link>
+          {quickLinks.map((link, index) => (
+            <Link key={index} to={`/CV/${link}`}>{link}</Link>
           ))}
       </div>
 

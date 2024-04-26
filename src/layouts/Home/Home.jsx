@@ -44,8 +44,8 @@ export default function Home() {
         <div className="Services">
           <h1>Everything you need to reach the next level</h1>
           <div className="Services-array">
-            {tarjetas.map((tarjeta) => {
-              return <Tarjeta titulo={tarjeta.titulo} description={tarjeta.description} icon={tarjeta.icon} />;
+            {tarjetas.map((tarjeta, index) => {
+              return <Tarjeta key={index} titulo={tarjeta.titulo} description={tarjeta.description} icon={tarjeta.icon} />;
             })}
           </div>
         </div>

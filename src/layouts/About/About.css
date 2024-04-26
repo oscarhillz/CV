@@ -1,7 +1,19 @@
 
 .AboutHeader{
+    margin-top: 5rem;
     display: flex;
+    flex-direction: column  ;
     justify-content: center;
     align-items: center;
     height: 80vh;
+    gap: 1rem;
+
+    & .AboutHeaderIMG{
+        width: 40vh;
+        height: 40vh;
+        background-image: url('../../assets/IMG/FotoOscarCirculo.jpeg');
+        background-size: cover;
+        border-radius: 25px;
+        margin-top: 4rem;
+    }
 }
