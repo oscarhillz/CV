@@ -25,7 +25,44 @@ export default function About() {
       </ Container >
 
       <div className="AboutStory">
-        
+        <Container>
+        <h1>Background</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque quis, accusantium nostrum officiis dolorum quas porro voluptatibus nulla autem ratione fugiat omnis quibusdam, laudantium dolores! Consectetur explicabo perferendis consequuntur?</p>
+        <br />
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque quis, accusantium nostrum officiis dolorum quas porro voluptatibus nulla autem ratione fugiat omnis quibusdam, laudantium dolores! Consectetur explicabo perferendis consequuntur?</p>
+        <br />
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque quis, accusantium nostrum officiis dolorum quas porro voluptatibus nulla autem ratione fugiat omnis quibusdam, laudantium dolores! Consectetur explicabo perferendis consequuntur?</p>
+        <br />
+
+        Foto
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque quis, accusantium nostrum officiis dolorum quas porro voluptatibus nulla autem ratione fugiat omnis quibusdam, laudantium dolores! Consectetur explicabo perferendis consequuntur?</p>
+        <br />
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque quis, accusantium nostrum officiis dolorum quas porro voluptatibus nulla autem ratione fugiat omnis quibusdam, laudantium dolores! Consectetur explicabo perferendis consequuntur?</p>
+        <br />
+
+        Herramientas
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque quis, accusantium nostrum officiis dolorum quas porro voluptatibus nulla autem ratione fugiat omnis quibusdam, laudantium dolores! Consectetur explicabo perferendis consequuntur?</p>
+        <br />
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque quis, accusantium nostrum officiis dolorum quas porro voluptatibus nulla autem ratione fugiat omnis quibusdam, laudantium dolores! Consectetur explicabo perferendis consequuntur?</p>
+        <br />
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque quis, accusantium nostrum officiis dolorum quas porro voluptatibus nulla autem ratione fugiat omnis quibusdam, laudantium dolores! Consectetur explicabo perferendis consequuntur?</p>
+        <br />
+
+        Foto
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque quis, accusantium nostrum officiis dolorum quas porro voluptatibus nulla autem ratione fugiat omnis quibusdam, laudantium dolores! Consectetur explicabo perferendis consequuntur?</p>
+        <br />
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque quis, accusantium nostrum officiis dolorum quas porro voluptatibus nulla autem ratione fugiat omnis quibusdam, laudantium dolores! Consectetur explicabo perferendis consequuntur?</p>
+        <br />
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque quis, accusantium nostrum officiis dolorum quas porro voluptatibus nulla autem ratione fugiat omnis quibusdam, laudantium dolores! Consectetur explicabo perferendis consequuntur?</p>
+        <br />
+
+        </Container>
+      
+      
+      
       </div>
 
       <Footer />
