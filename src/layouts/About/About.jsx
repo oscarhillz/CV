@@ -1,9 +1,16 @@
+import Footer from "../../components/Footer/Footer";
+import Navbar from "../../components/Navbar/Navbar";
 
 export default function About() {
   return (
-    <div>
-      <h1>About</h1>
-      <p>About page content</p>
-    </div>
+    <>
+    <Navbar />
+    
+    <body>
+      
+
+      <Footer />
+    </body>
+    </>
   )
 }

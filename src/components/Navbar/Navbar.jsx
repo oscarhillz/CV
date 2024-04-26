@@ -8,14 +8,17 @@ import AccountTreeIcon from '@mui/icons-material/AccountTree';
 import MenuIcon from '@mui/icons-material/Menu';
 
 export default function Navbar() {
+  const icons = [<HouseIcon />, <FaceIcon />, <AccountTreeIcon />, <MenuIcon />]
+  const texts = ['Home', 'About', 'Projects', 'Menu']
+
+  
   return (
     <div className="Navbar">
         <div className="nav-menu">
             <div className="nav-container">
-                <Navbar_icon icon={<HouseIcon sx={{ fontSize: 25 }}/>} text={'Home'}/>
-                <Navbar_icon icon={<FaceIcon sx={{ fontSize: 25 }}/>} text={'About'}/>
-                <Navbar_icon icon={<AccountTreeIcon sx={{ fontSize: 25 }}/>} text={'Projects'}/>
-                <Navbar_icon icon={<MenuIcon sx={{ fontSize: 25 }}/>} text={'Menu'}/>
+                {icons.map((icon, index) => (
+                  <Navbar_icon key={index} icon={icon} text={texts[index]} />
+                ))}
             </div>
         </div>
 

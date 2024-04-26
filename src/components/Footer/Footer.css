@@ -33,15 +33,6 @@
     text-align: center;
 }
 
-.footer-quicklinks > ul{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 0.5rem;
-    gap: 1rem;
-}
-
 .footer-final{
     display: flex;
     justify-content: center;

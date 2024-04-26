@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: var(--main-txt-color);
+}
+
 :root {
     --main-bg-color: rgb(34, 37, 46);
     --main-bg-color-2: rgb(27, 29, 35);
@@ -28,8 +33,6 @@ body{
     & h1{
         margin: 2rem 0;
     }
-
-
 }
 
 /* .Proyects{
