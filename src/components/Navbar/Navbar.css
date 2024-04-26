@@ -52,6 +52,7 @@
         flex-direction: row;
         align-items: center;
         padding: 1rem 2rem;
+        padding-bottom: 2rem;
         color: var( --main-txt-color);
 
         & .DrawerHeaderIMG{
@@ -74,6 +75,14 @@
 
         & a{
             padding-left: 2rem;
+
+        }
+
+        & .DrawerLink{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 1rem;
         }
     }
 
