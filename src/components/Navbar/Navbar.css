@@ -20,7 +20,6 @@
     border-radius: 20px;
 }
 
-
 .nav-container{
     display: flex;
     justify-content: space-around;
@@ -28,6 +27,14 @@
     flex-direction: row;
 
     width: 90%;
+    
+    & .Navbar-icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
     
 }
 
