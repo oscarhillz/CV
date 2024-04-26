@@ -1,4 +1,15 @@
 
 .TestimonioFooter{
-    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.TestimonioFooterText{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

@@ -4,15 +4,15 @@ import TestimonioFooter from './TestimonioFooter/TestimonioFooter'
 
 import { Container } from '@mui/material';
 
-export default function Testimonio({nombre, cargo, img}) {
+export default function Testimonio({nombre, cargo, testimonio}) {
   return (
     <>
     <div className="Testimonio">
         <Container>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat tempora asperiores ut quidem dolor unde saepe quo at, perferendis animi laboriosam corporis? Libero nesciunt praesentium, voluptates deleniti voluptate quaerat autem!</p>
+            <p>{testimonio}</p>
         </ Container>
 
-        <TestimonioFooter nombre={nombre} cargo={cargo} img={img}/>
+        <TestimonioFooter nombre={nombre} cargo={cargo} />
 
     </div>
     </>

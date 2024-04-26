@@ -52,9 +52,13 @@ export default function Home() {
         <Container>
           <p>I understand your needs, ensuring you get a product you are happy with.</p>
         </ Container>
-        <Testimonio nombre={'Oscar Hill'} cargo={'CEO'} />
-        <Testimonio nombre={'Oscar Hill'} cargo={'CEO'} />
-        <Testimonio nombre={'Oscar Hill'} cargo={'CEO'} />
+
+        <div className="Testimony-Card">
+          <Testimonio nombre={'Oscar Hill'} cargo={'CEO'} testimonio={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat tempora asperiores ut quidem dolor unde saepe quo at, perferendis animi laboriosam corporis? Libero nesciunt praesentium, voluptates deleniti voluptate quaerat autem!'}/>
+          <Testimonio nombre={'Oscar Hill'} cargo={'CEO'} testimonio={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat tempora asperiores ut quidem dolor unde saepe quo at, perferendis animi laboriosam corporis? Libero nesciunt praesentium, voluptates deleniti voluptate quaerat autem!'}/>
+          <Testimonio nombre={'Oscar Hill'} cargo={'CEO'} testimonio={'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat tempora asperiores ut quidem dolor unde saepe quo at, perferendis animi laboriosam corporis? Libero nesciunt praesentium, voluptates deleniti voluptate quaerat autem!'}/>
+        </div>
+
 
       </div>
 
