@@ -35,7 +35,7 @@ export default function Footer() {
       <div className="footer-quicklinks">
         <h2>Quick Links</h2>
           {quickLinks.map((link, index) => (
-            <Link key={index} to={`/CV/${link}`}>{link}</Link>
+            <Link key={index} to={`/CV/${link}`} onClick={() => window.scrollTo(0, 0)}>{link}</Link>
           ))}
       </div>
 

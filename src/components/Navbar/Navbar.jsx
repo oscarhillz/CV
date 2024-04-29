@@ -36,7 +36,7 @@ export default function Navbar() {
         <div className="nav-menu">
           <div className="nav-container">
             {icons.map((icon, index) => (
-              <Link key={index} to={`/CV/${texts[index]}`}>
+              <Link key={index} to={`/CV/${texts[index]}`} onClick={() => window.scrollTo(0, 0)}>
                 <div className="Navbar-icon">
                   {icon}
                   {texts[index]}
@@ -61,7 +61,7 @@ export default function Navbar() {
 
           <div className="DrawerLinks">
             {quickLinks.map((link, index) => (
-              <Link key={index} to={`/CV/${link}`}>
+              <Link key={index} to={`/CV/${link}`} onClick={() => window.scrollTo(0, 0)}>
                 <div className="DrawerLink">
                   {quickLinksIcons[index]}
                   {link}

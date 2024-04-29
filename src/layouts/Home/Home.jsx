@@ -18,11 +18,11 @@ import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 
 export default function Home() {
   const tarjetas = [
-    { titulo: 'Web Site ',         description: 'abcdfdsfgsdfsdabc', icon: <WebAssetIcon        sx={{ fontSize: 40 }} /> },
-    { titulo: 'App Building',      description: 'abcdfdsfgsdfsdabc', icon: <AppSettingsAltIcon  sx={{ fontSize: 40 }} /> },
-    { titulo: 'Custom Algorithms', description: 'abcdfdsfgsdfsdabc', icon: <FunctionsIcon       sx={{ fontSize: 40 }} /> },
-    { titulo: 'Business Strategy', description: 'abcdfdsfgsdfsdabc', icon: <BusinessIcon        sx={{ fontSize: 40 }} /> },
-    { titulo: 'Business Strategy', description: 'abcdfdsfgsdfsdabc', icon: <SearchIcon          sx={{ fontSize: 40 }} /> },
+    { titulo: 'Website',           description: 'abcdfdsfgsdfsdabc', icon: <WebAssetIcon        sx={{ fontSize: 40 }} /> },
+    { titulo: 'Landing Page',      description: 'abcdfdsfgsdfsdabc', icon: <AppSettingsAltIcon  sx={{ fontSize: 40 }} /> },
+    { titulo: 'Custom Apps',       description: 'abcdfdsfgsdfsdabc', icon: <AppSettingsAltIcon       sx={{ fontSize: 40 }} /> },
+    { titulo: 'Algorithms',        description: 'abcdfdsfgsdfsdabc', icon: <FunctionsIcon       sx={{ fontSize: 40 }} /> },
+    { titulo: 'Business Strategy', description: 'abcdfdsfgsdfsdabc', icon: <BusinessIcon          sx={{ fontSize: 40 }} /> },
     { titulo: 'Support',           description: 'abcdfdsfgsdfsdabc', icon: <SupportAgentIcon    sx={{ fontSize: 40 }} /> }
   ];
 
@@ -32,8 +32,9 @@ export default function Home() {
 
       <body>
         <div className="Hero">
-          <h2>Think Create Improve</h2>
-          <h1>I build custom apps you will love!</h1>
+          <h2>Software Developer</h2>
+          <h3>Full Stack</h3>
+          <h1>Oscar Hill</h1>
           <Button size="large" variant="contained">Contact</Button>
         </div>
 
@@ -50,7 +51,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="About">
+        {/* <div className="About">
           <div className="About-Img">
             <div className="About-Img-Card">
               <h2>Oscar Hill</h2>
@@ -58,7 +59,7 @@ export default function Home() {
               <Button size="large" variant="contained">Let's Talk</Button>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="Testimony">
           <h1>Check some reviews</h1>
