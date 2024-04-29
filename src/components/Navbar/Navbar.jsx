@@ -20,13 +20,13 @@ import { Drawer } from '@mui/material'
 import { useState } from 'react'
 
 export default function Navbar() {
-  const icons = [<FaceIcon />, <AccountTreeIcon />]
-  const texts = ['About', 'Projects']
+  const icons = [<FaceIcon />, <AccountTreeIcon />];
+  const texts = ['About', 'Projects'];
 
-  const DrawerIcons = [<XIcon />, <LinkedInIcon />, <InstagramIcon />, <GithubIcon />];
-  const DrawerIconsLinks = ['https://twitter.com/oscarhillz' ,'https://www.linkedin.com/in/oscarhillz', 'https://www.instagram.com/oscarhillz/', 'https://www.github.com/oscarhillz/']
+  const DrawerIcons = [<XIcon fontSize="large" />, <LinkedInIcon fontSize="large" />, <InstagramIcon fontSize="large" />, <GithubIcon fontSize="large" />];
+  const DrawerIconsLinks = ['https://twitter.com/oscarhillz' ,'https://www.linkedin.com/in/oscarhillz', 'https://www.instagram.com/oscarhillz/', 'https://www.github.com/oscarhillz/'];
   const quickLinks = ['About', 'Projects', 'Services', 'Contact'];
-  const quickLinksIcons = [<FaceIcon />, <AccountTreeIcon />, <SettingsSuggestIcon />, <ContactPageIcon />]
+  const quickLinksIcons = [<FaceIcon fontSize="large" />, <AccountTreeIcon fontSize="large" />, <SettingsSuggestIcon fontSize="large" />, <ContactPageIcon fontSize="large" />];
 
   const [isDrawerOpen, setIsDrawerOpen] = useState(false)
 
@@ -52,7 +52,7 @@ export default function Navbar() {
             ))}
 
             <div className="Navbar-icon" onClick={() => setIsDrawerOpen(true)}>
-              <MenuIcon />
+              <MenuIcon/>
               Menu
             </div>
           </div>
@@ -70,7 +70,7 @@ export default function Navbar() {
 
             <Link to={`/CV/`} onClick={() => window.scrollTo(0, 0)}  aria-label="Link">
                 <div className="DrawerLink">
-                  <HouseIcon />
+                  <HouseIcon fontSize="large"/>
                   Home
                 </div>
               </Link>

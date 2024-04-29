@@ -59,7 +59,6 @@ export default function Home() {
   return (
     <>
       <Navbar />
-
       <body>
         <div className="Hero">
           <h2>Software Developer</h2>

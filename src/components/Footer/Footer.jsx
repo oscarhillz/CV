@@ -8,7 +8,12 @@ import { Link } from 'react-router-dom';
 
 
 export default function Footer() {
-  const icons = [<XIcon />, <LinkedInIcon />, <InstagramIcon />, <GithubIcon />];
+  const icons = [
+    <XIcon fontSize="large" />,
+    <LinkedInIcon fontSize="large" />,
+    <InstagramIcon fontSize="large" />,
+    <GithubIcon fontSize="large" />
+  ];
   const iconsLinks = ['https://twitter.com/oscarhillz' ,'https://www.linkedin.com/in/oscarhillz', 'https://www.instagram.com/oscarhillz/', 'https://www.github.com/oscarhillz/']
   const quickLinks = ['Home', 'About', 'Projects', 'Services', 'Contact'];
 
