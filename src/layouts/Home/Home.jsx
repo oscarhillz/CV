@@ -22,7 +22,6 @@ export default function Home() {
     { titulo: 'Website',           description: 'abcdfdsfgsdfsdabc', icon: <WebIcon        sx={{ fontSize: 40 }} /> },
     { titulo: 'Landing Page',      description: 'abcdfdsfgsdfsdabc', icon: <FlightLandIcon  sx={{ fontSize: 40 }} /> },
     { titulo: 'Custom Apps',       description: 'abcdfdsfgsdfsdabc', icon: <AppSettingsAltIcon       sx={{ fontSize: 40 }} /> },
-    { titulo: 'Algorithms',        description: 'abcdfdsfgsdfsdabc', icon: <FunctionsIcon       sx={{ fontSize: 40 }} /> },
     { titulo: 'Business Strategy', description: 'abcdfdsfgsdfsdabc', icon: <BusinessIcon          sx={{ fontSize: 40 }} /> },
     { titulo: 'Support',           description: 'abcdfdsfgsdfsdabc', icon: <SupportAgentIcon    sx={{ fontSize: 40 }} /> }
   ];

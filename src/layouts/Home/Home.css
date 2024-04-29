@@ -10,6 +10,10 @@
     & Button{
         margin-top: 2rem;
     }
+
+    & h2{
+        color: var(--main-bt-color);
+    }
 }
 
 /* .Proyects{
