@@ -63,15 +63,14 @@ export default function Navbar() {
         <div className="Drawer">
           <div className="DrawerHeader">
             <div className="DrawerHeaderIMG"></div>
-            <h2>Oscar Hill</h2>
+            <h1>Oscar Hill</h1>
           </div>
 
           <div className="DrawerLinks">
-
             <Link to={`/CV/`} onClick={() => window.scrollTo(0, 0)}  aria-label="Link">
                 <div className="DrawerLink">
                   <HouseIcon fontSize="large"/>
-                  Home
+                  <p>Home</p>
                 </div>
               </Link>
 
@@ -80,7 +79,7 @@ export default function Navbar() {
               <Link key={index} to={`/CV/${link}`} onClick={() => window.scrollTo(0, 0)}  aria-label="Link">
                 <div className="DrawerLink">
                   {quickLinksIcons[index]}
-                  {link}
+                  <p>{link}</p>
                 </div>
               </Link>
             ))}

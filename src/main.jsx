@@ -1,13 +1,15 @@
-import React from 'react'
+import React, {lazy, Suspense} from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 
 import { createBrowserRouter, RouterProvider} from 'react-router-dom'
-import Home from './layouts/Home/Home.jsx'
-import About from './layouts/About/About.jsx'
-import Projects from './layouts/Projects/Projects.jsx'
-import Services from './layouts/Services/Services.jsx'
-import Contact from './layouts/Contact/Contact.jsx'
+
+const Home = lazy(() => import('./layouts/Home/Home.jsx'))
+const About = lazy(() => import('./layouts/About/About.jsx'))
+const Projects = lazy(() => import('./layouts/Projects/Projects.jsx'))
+const Services = lazy(() => import('./layouts/Services/Services.jsx'))
+const Contact = lazy(() => import('./layouts/Contact/Contact.jsx'))
+
 
 const router = createBrowserRouter([
   {
@@ -34,11 +36,12 @@ const router = createBrowserRouter([
   path: '/CV/Contact',
   element: <Contact />,
   },
-  
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <Suspense fallback={<h1>Cargando</h1>}>
+      <RouterProvider router={router} />
+    </Suspense>
   </React.StrictMode>,
 )
