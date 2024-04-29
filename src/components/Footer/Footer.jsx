@@ -22,7 +22,7 @@ export default function Footer() {
       <div className="footer-text">
         <Container>
           <h2>Oscar Hill</h2>
-          <p>I create beautiful websites your users will love. I work with you from start to finish to make sure your goals are reached and your users are happy.</p>
+          <p>I design and develop custom software solutions, spanning both front end and back end. I collaborate with you from the initial phase to the final delivery, ensuring your goals are met and that you achieve the best possible outcomes.</p>
         </Container>
       </div>
 

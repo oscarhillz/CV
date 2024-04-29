@@ -2,13 +2,15 @@ import './Home.css'
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer'
 
+import Technology from '../../components/Technology/Technology';
+
 import Tarjeta from '../../components/Tarjeta/Tarjeta';
 import Testimonio from '../../components/Testimonio/Testimonio';
 
 import Button from '@mui/material/Button';
-import SearchIcon from '@mui/icons-material/Search';
 import { Container } from '@mui/material';
-import WebAssetIcon from '@mui/icons-material/WebAsset';
+import WebIcon from '@mui/icons-material/Web';
+import FlightLandIcon from '@mui/icons-material/FlightLand';
 import AppSettingsAltIcon from '@mui/icons-material/AppSettingsAlt';
 import FunctionsIcon from '@mui/icons-material/Functions';
 import BusinessIcon from '@mui/icons-material/Business';
@@ -18,13 +20,19 @@ import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 
 export default function Home() {
   const tarjetas = [
-    { titulo: 'Website',           description: 'abcdfdsfgsdfsdabc', icon: <WebAssetIcon        sx={{ fontSize: 40 }} /> },
-    { titulo: 'Landing Page',      description: 'abcdfdsfgsdfsdabc', icon: <AppSettingsAltIcon  sx={{ fontSize: 40 }} /> },
+    { titulo: 'Website',           description: 'abcdfdsfgsdfsdabc', icon: <WebIcon        sx={{ fontSize: 40 }} /> },
+    { titulo: 'Landing Page',      description: 'abcdfdsfgsdfsdabc', icon: <FlightLandIcon  sx={{ fontSize: 40 }} /> },
     { titulo: 'Custom Apps',       description: 'abcdfdsfgsdfsdabc', icon: <AppSettingsAltIcon       sx={{ fontSize: 40 }} /> },
     { titulo: 'Algorithms',        description: 'abcdfdsfgsdfsdabc', icon: <FunctionsIcon       sx={{ fontSize: 40 }} /> },
     { titulo: 'Business Strategy', description: 'abcdfdsfgsdfsdabc', icon: <BusinessIcon          sx={{ fontSize: 40 }} /> },
     { titulo: 'Support',           description: 'abcdfdsfgsdfsdabc', icon: <SupportAgentIcon    sx={{ fontSize: 40 }} /> }
   ];
+
+  const listaTechnology = [
+    {titulo: 'Front End', listaIconos: [<WebIcon />, <WebIcon />, <WebIcon />, <WebIcon />], listaNombreIconos: ['React', 'HTML', 'CSS', 'Figma']}, 
+    {titulo: 'Back End', listaIconos: [<WebIcon />, <WebIcon />, <WebIcon />, <WebIcon />, <WebIcon />], listaNombreIconos: ['Spring', 'Java', 'Python', 'Spring', 'Python',]},
+    {titulo: 'Learning', listaIconos: [<WebIcon />, <WebIcon />, <WebIcon />], listaNombreIconos: ['PostgreSQL', 'MySQL', 'MongoDB']},
+    {titulo: 'Extra', listaIconos: [<WebIcon />, <WebIcon />, <WebIcon />], listaNombreIconos: ['Git', 'Docker', 'AWS']}]
 
   return (
     <>
@@ -33,8 +41,8 @@ export default function Home() {
       <body>
         <div className="Hero">
           <h2>Software Developer</h2>
-          <h3>Full Stack</h3>
           <h1>Oscar Hill</h1>
+          <h4>Full Stack React & Spring Boot</h4>
           <Button size="large" variant="contained">Contact</Button>
         </div>
 
@@ -60,6 +68,15 @@ export default function Home() {
             </div>
           </div>
         </div> */}
+
+        <div className="Technologies">
+          <h1>Technologies</h1>
+          <br />
+          {listaTechnology.map((technology, index) => {
+            return <Technology key={index} titulo={technology.titulo} listaIconos={technology.listaIconos} listaNombreIconos={technology.listaNombreIconos} />;
+          })}
+        </div>
+
 
         <div className="Testimony">
           <h1>Check some reviews</h1>
