@@ -15,7 +15,6 @@
     & .TechnologyContainer {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: minmax(5rem, auto);
       grid-gap: 1rem;
       margin: 1rem 0;
       color: var(--main-txt-color);

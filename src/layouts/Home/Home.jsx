@@ -16,7 +16,33 @@ import FunctionsIcon from '@mui/icons-material/Functions';
 import BusinessIcon from '@mui/icons-material/Business';
 import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 
-
+const listaTechnology = [
+  {titulo: 'Front End', 
+          listaIconos: [
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" style={{width: '60px', height: '60px'}} />,
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" style={{width: '60px', height: '60px'}} />,
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" style={{width: '60px', height: '60px'}} />,
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" style={{width: '60px', height: '60px'}} />], 
+          listaNombreIconos: ['HTML', 'CSS', 'JS', 'React', 'Figma']}, 
+  {titulo: 'Back End', 
+          listaIconos: [
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" style={{width: '60px', height: '60px'}} />,
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" style={{width: '60px', height: '60px'}} />,
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" style={{width: '60px', height: '60px'}} />,
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" style={{width: '60px', height: '60px'}} />],
+          listaNombreIconos: ['Java', 'Spring Boot', 'PostgresSQL', 'MongoDB']},
+  {titulo: 'Learning', 
+          listaIconos: [
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" style={{width: '60px', height: '60px'}} />,
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"  style={{width: '60px', height: '60px'}} />,
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cassandra/cassandra-original.svg" style={{width: '60px', height: '60px'}} />], 
+          listaNombreIconos: ['Python', 'AWS', 'Casandra']},
+  {titulo: 'Extra', 
+          listaIconos: [
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" style={{width: '60px', height: '60px'}} />,
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" style={{width: '60px', height: '60px'}} />,
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" style={{width: '60px', height: '60px'}} />],
+          listaNombreIconos: ['Git', 'Github', 'Docker']}]
 
 export default function Home() {
   const tarjetas = [
@@ -27,12 +53,6 @@ export default function Home() {
     { titulo: 'Business Strategy', description: 'abcdfdsfgsdfsdabc', icon: <BusinessIcon          sx={{ fontSize: 40 }} /> },
     { titulo: 'Support',           description: 'abcdfdsfgsdfsdabc', icon: <SupportAgentIcon    sx={{ fontSize: 40 }} /> }
   ];
-
-  const listaTechnology = [
-    {titulo: 'Front End', listaIconos: [<WebIcon />, <WebIcon />, <WebIcon />, <WebIcon />], listaNombreIconos: ['React', 'HTML', 'CSS', 'Figma']}, 
-    {titulo: 'Back End', listaIconos: [<WebIcon />, <WebIcon />, <WebIcon />, <WebIcon />, <WebIcon />], listaNombreIconos: ['Spring', 'Java', 'Python', 'Spring', 'Python',]},
-    {titulo: 'Learning', listaIconos: [<WebIcon />, <WebIcon />, <WebIcon />], listaNombreIconos: ['PostgreSQL', 'MySQL', 'MongoDB']},
-    {titulo: 'Extra', listaIconos: [<WebIcon />, <WebIcon />, <WebIcon />], listaNombreIconos: ['Git', 'Docker', 'AWS']}]
 
   return (
     <>
@@ -105,3 +125,5 @@ export default function Home() {
     </>
   );
 }
+
+export {listaTechnology};
