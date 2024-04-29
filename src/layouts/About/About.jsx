@@ -4,6 +4,8 @@ import { Button, Container } from "@mui/material";
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
 
+import FileDownloadIcon from '@mui/icons-material/FileDownload';
+
 export default function About() {
   
 
@@ -15,7 +17,10 @@ export default function About() {
       <div className="AboutHeader">
         <h2>Welcome!</h2>
         <h1>I'm Oscar</h1>
-        <Button variant="contained" color="primary">Download CV</Button>
+        <Button variant="contained" color="primary">
+          <FileDownloadIcon />
+          Download CV
+        </Button>
         <div className="AboutHeaderIMG"></div>
       </div>
 

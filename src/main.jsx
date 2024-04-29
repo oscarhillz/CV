@@ -9,6 +9,9 @@ const About = lazy(() => import('./layouts/About/About.jsx'))
 const Projects = lazy(() => import('./layouts/Projects/Projects.jsx'))
 const Services = lazy(() => import('./layouts/Services/Services.jsx'))
 const Contact = lazy(() => import('./layouts/Contact/Contact.jsx'))
+const Navbar = lazy(() => import('./components/Navbar/Navbar.jsx'))
+const Footer = lazy(() => import('./components/Footer/Footer.jsx'))
+
 
 
 const router = createBrowserRouter([
@@ -41,7 +44,8 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Suspense fallback={<h1>Cargando</h1>}>
-      <RouterProvider router={router} />
+      <RouterProvider router={router}>
+      </RouterProvider>
     </Suspense>
   </React.StrictMode>,
 )

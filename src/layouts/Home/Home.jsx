@@ -12,7 +12,6 @@ import { Container } from '@mui/material';
 import WebIcon from '@mui/icons-material/Web';
 import FlightLandIcon from '@mui/icons-material/FlightLand';
 import AppSettingsAltIcon from '@mui/icons-material/AppSettingsAlt';
-import FunctionsIcon from '@mui/icons-material/Functions';
 import BusinessIcon from '@mui/icons-material/Business';
 import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 
