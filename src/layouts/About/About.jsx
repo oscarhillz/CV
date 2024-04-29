@@ -1,8 +1,5 @@
 import './About.css';
 
-import { listaTechnology } from '../Home/Home';
-
-import Technology from '../../components/Technology/Technology';
 import { Button, Container } from "@mui/material";
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
@@ -46,14 +43,6 @@ export default function About() {
         <br />
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque quis, accusantium nostrum officiis dolorum quas porro voluptatibus nulla autem ratione fugiat omnis quibusdam, laudantium dolores! Consectetur explicabo perferendis consequuntur?</p>
         <br />
-
-        <div className="Technologies">
-          <h1>Technologies</h1>
-          <br />
-          {listaTechnology.map((technology, index) => {
-            return <Technology key={index} titulo={technology.titulo} listaIconos={technology.listaIconos} listaNombreIconos={technology.listaNombreIconos} />;
-          })}
-        </div>
 
         Foto
 

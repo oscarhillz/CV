@@ -1,9 +1,5 @@
 import './Tarjeta.css';
 
-
-import SearchIcon from '@mui/icons-material/Search';
-
-
 export default function Tarjeta({ titulo, description, icon }) {
   return (
     <> 
@@ -15,7 +11,7 @@ export default function Tarjeta({ titulo, description, icon }) {
         </div>
 
         <div className="card-content">
-            <h3>{titulo}</h3>
+            <p>{titulo}</p>
             <p>{description}</p>
         </div>
     </div>

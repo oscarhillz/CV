@@ -16,33 +16,6 @@ import FunctionsIcon from '@mui/icons-material/Functions';
 import BusinessIcon from '@mui/icons-material/Business';
 import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 
-const listaTechnology = [
-  {titulo: 'Front End', 
-          listaIconos: [
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" style={{width: '60px', height: '60px'}} />,
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" style={{width: '60px', height: '60px'}} />,
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" style={{width: '60px', height: '60px'}} />,
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" style={{width: '60px', height: '60px'}} />], 
-          listaNombreIconos: ['HTML', 'CSS', 'JS', 'React', 'Figma']}, 
-  {titulo: 'Back End', 
-          listaIconos: [
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" style={{width: '60px', height: '60px'}} />,
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" style={{width: '60px', height: '60px'}} />,
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" style={{width: '60px', height: '60px'}} />,
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" style={{width: '60px', height: '60px'}} />],
-          listaNombreIconos: ['Java', 'Spring Boot', 'PostgresSQL', 'MongoDB']},
-  {titulo: 'Learning', 
-          listaIconos: [
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" style={{width: '60px', height: '60px'}} />,
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"  style={{width: '60px', height: '60px'}} />,
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cassandra/cassandra-original.svg" style={{width: '60px', height: '60px'}} />], 
-          listaNombreIconos: ['Python', 'AWS', 'Casandra']},
-  {titulo: 'Extra', 
-          listaIconos: [
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" style={{width: '60px', height: '60px'}} />,
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" style={{width: '60px', height: '60px'}} />,
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" style={{width: '60px', height: '60px'}} />],
-          listaNombreIconos: ['Git', 'Github', 'Docker']}]
 
 export default function Home() {
   const tarjetas = [
@@ -54,6 +27,35 @@ export default function Home() {
     { titulo: 'Support',           description: 'abcdfdsfgsdfsdabc', icon: <SupportAgentIcon    sx={{ fontSize: 40 }} /> }
   ];
 
+  const listaTechnology = [
+    {titulo: 'Front End', 
+            listaIconos: [
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML" style={{width: '60px', height: '60px'}} />,
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS" style={{width: '60px', height: '60px'}} />,
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JS" style={{width: '60px', height: '60px'}} />,
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" style={{width: '60px', height: '60px'}} />,
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" alt="Figma" style={{width: '60px', height: '60px'}} />], 
+            listaNombreIconos: ['HTML', 'CSS', 'JS', 'React', 'Figma']}, 
+    {titulo: 'Back End', 
+            listaIconos: [
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" style={{width: '60px', height: '60px'}} />,
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" alt="Spring Boot" style={{width: '60px', height: '60px'}} />,
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgresSQL" style={{width: '60px', height: '60px'}} />,
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="MongoDB" style={{width: '60px', height: '60px'}} />],
+            listaNombreIconos: ['Java', 'Spring Boot', 'PostgresSQL', 'MongoDB']},
+    {titulo: 'Learning', 
+            listaIconos: [
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" style={{width: '60px', height: '60px'}} />,
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" style={{width: '60px', height: '60px'}} />,
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cassandra/cassandra-original.svg" alt="Casandra" style={{width: '60px', height: '60px'}} />], 
+            listaNombreIconos: ['Python', 'AWS', 'Casandra']},
+    {titulo: 'Extra', 
+            listaIconos: [
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" style={{width: '60px', height: '60px'}} />,
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Github" style={{width: '60px', height: '60px'}} />,
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" style={{width: '60px', height: '60px'}} />],
+            listaNombreIconos: ['Git', 'Github', 'Docker']}]
+
   return (
     <>
       <Navbar />
@@ -62,7 +64,8 @@ export default function Home() {
         <div className="Hero">
           <h2>Software Developer</h2>
           <h1>Oscar Hill</h1>
-          <h4>Full Stack React & Spring Boot</h4>
+          <span>Full Stack</span>
+          <span>React & Spring Boot</span>
           <Button size="large" variant="contained">Contact</Button>
         </div>
 
@@ -71,7 +74,7 @@ export default function Home() {
         </div>
 
         <div className="Services">
-          <h1>Everything you need to reach the next level</h1>
+          <h2>Everything you need to reach the next level</h2>
           <div className="Services-array">
             {tarjetas.map((tarjeta, index) => {
               return <Tarjeta key={index} titulo={tarjeta.titulo} description={tarjeta.description} icon={tarjeta.icon} />;
@@ -90,7 +93,7 @@ export default function Home() {
         </div> */}
 
         <div className="Technologies">
-          <h1>Technologies</h1>
+          <h2>Technologies</h2>
           <br />
           {listaTechnology.map((technology, index) => {
             return <Technology key={index} titulo={technology.titulo} listaIconos={technology.listaIconos} listaNombreIconos={technology.listaNombreIconos} />;
@@ -99,7 +102,7 @@ export default function Home() {
 
 
         <div className="Testimony">
-          <h1>Check some reviews</h1>
+          <h2>Check some reviews</h2>
           <Container>
             <p>I understand your needs, ensuring you get a product you are happy with.</p>
           </Container>
@@ -113,7 +116,7 @@ export default function Home() {
 
         {/* <div className="Contact">
           <Container>
-            <h1>Want to chat?</h1>
+            <h2>Want to chat?</h2>
             <p>Schedule a call... Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum minima quam culpa ab necessitatibus laudantium, quae sapiente. Deleniti ullam temporibus quaerat omnis molestias? Voluptatem, sint? Voluptates delectus dolorum debitis beatae.</p>
             contact
           </Container>
@@ -125,5 +128,3 @@ export default function Home() {
     </>
   );
 }
-
-export {listaTechnology};

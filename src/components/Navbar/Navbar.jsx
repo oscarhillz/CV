@@ -20,13 +20,13 @@ import { Drawer } from '@mui/material'
 import { useState } from 'react'
 
 export default function Navbar() {
-  const icons = [<HouseIcon />, <FaceIcon />, <AccountTreeIcon />]
-  const texts = ['Home', 'About', 'Projects']
+  const icons = [<FaceIcon />, <AccountTreeIcon />]
+  const texts = ['About', 'Projects']
 
   const DrawerIcons = [<XIcon />, <LinkedInIcon />, <InstagramIcon />, <GithubIcon />];
   const DrawerIconsLinks = ['https://twitter.com/oscarhillz' ,'https://www.linkedin.com/in/oscarhillz', 'https://www.instagram.com/oscarhillz/', 'https://www.github.com/oscarhillz/']
-  const quickLinks = ['Home', 'About', 'Projects', 'Services', 'Contact'];
-  const quickLinksIcons = [<HouseIcon />, <FaceIcon />, <AccountTreeIcon />, <SettingsSuggestIcon />, <ContactPageIcon />]
+  const quickLinks = ['About', 'Projects', 'Services', 'Contact'];
+  const quickLinksIcons = [<FaceIcon />, <AccountTreeIcon />, <SettingsSuggestIcon />, <ContactPageIcon />]
 
   const [isDrawerOpen, setIsDrawerOpen] = useState(false)
 
@@ -35,8 +35,15 @@ export default function Navbar() {
       <div className="Navbar">
         <div className="nav-menu">
           <div className="nav-container">
+            <Link to={`/CV/`} onClick={() => window.scrollTo(0, 0)}  aria-label="Link">
+              <div className="Navbar-icon">
+                <HouseIcon />
+                House
+              </div>
+            </Link>
+
             {icons.map((icon, index) => (
-              <Link key={index} to={`/CV/${texts[index]}`} onClick={() => window.scrollTo(0, 0)}>
+              <Link key={index} to={`/CV/${texts[index]}`} onClick={() => window.scrollTo(0, 0)} aria-label="Link">
                 <div className="Navbar-icon">
                   {icon}
                   {texts[index]}
@@ -60,8 +67,17 @@ export default function Navbar() {
           </div>
 
           <div className="DrawerLinks">
+
+            <Link to={`/CV/`} onClick={() => window.scrollTo(0, 0)}  aria-label="Link">
+                <div className="DrawerLink">
+                  <HouseIcon />
+                  Home
+                </div>
+              </Link>
+
+
             {quickLinks.map((link, index) => (
-              <Link key={index} to={`/CV/${link}`} onClick={() => window.scrollTo(0, 0)}>
+              <Link key={index} to={`/CV/${link}`} onClick={() => window.scrollTo(0, 0)}  aria-label="Link">
                 <div className="DrawerLink">
                   {quickLinksIcons[index]}
                   {link}

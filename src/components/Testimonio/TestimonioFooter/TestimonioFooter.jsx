@@ -5,8 +5,8 @@ return (
     <>
     <div className="TestimonioFooter">
         <div className="TestimonioFooterText">
-            <h3>{nombre}</h3>
-            <h4>{cargo}</h4>
+            <p>{nombre}</p>
+            <p>{cargo}</p>
         </div>
     </div>
     </>
