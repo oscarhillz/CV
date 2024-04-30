@@ -13,6 +13,7 @@ import XIcon from '@mui/icons-material/X';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import GithubIcon from '@mui/icons-material/GitHub';
+import LeetcodeIcon from '@mui/icons-material/Code';
 
 import { Link } from 'react-router-dom'
 import { Drawer } from '@mui/material'
@@ -23,8 +24,8 @@ export default function Navbar() {
   const icons = [<FaceIcon />, <AccountTreeIcon />];
   const texts = ['About', 'Projects'];
 
-  const DrawerIcons = [<XIcon fontSize="large" />, <LinkedInIcon fontSize="large" />, <InstagramIcon fontSize="large" />, <GithubIcon fontSize="large" />];
-  const DrawerIconsLinks = ['https://twitter.com/oscarhillz' ,'https://www.linkedin.com/in/oscarhillz', 'https://www.instagram.com/oscarhillz/', 'https://www.github.com/oscarhillz/'];
+  const DrawerIcons = [<XIcon fontSize="large" />, <LinkedInIcon fontSize="large" />, <InstagramIcon fontSize="large" />, <GithubIcon fontSize="large" />, <LeetcodeIcon fontSize="large" />];
+  const DrawerIconsLinks = ['https://twitter.com/oscarhillz' ,'https://www.linkedin.com/in/oscarhillz', 'https://www.instagram.com/oscarhillz/', 'https://www.github.com/oscarhillz/', 'https://leetcode.com/u/oscarhillz/'];
   const quickLinks = ['About', 'Projects', 'Services', 'Contact'];
   const quickLinksIcons = [<FaceIcon fontSize="large" />, <AccountTreeIcon fontSize="large" />, <SettingsSuggestIcon fontSize="large" />, <ContactPageIcon fontSize="large" />];
 

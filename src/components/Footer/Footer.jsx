@@ -3,18 +3,21 @@ import XIcon from '@mui/icons-material/X';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import GithubIcon from '@mui/icons-material/GitHub';
+import LeetcodeIcon from '@mui/icons-material/Code';
 import { Container } from '@mui/material';
 import { Link } from 'react-router-dom';
 
 
 export default function Footer() {
+  const iconsLinks = ['https://twitter.com/oscarhillz' ,'https://www.linkedin.com/in/oscarhillz', 'https://www.instagram.com/oscarhillz/', 'https://www.github.com/oscarhillz/', 'https://leetcode.com/oscarhillz/']
   const icons = [
     <XIcon fontSize="large" />,
     <LinkedInIcon fontSize="large" />,
     <InstagramIcon fontSize="large" />,
-    <GithubIcon fontSize="large" />
+    <GithubIcon fontSize="large" />,
+    <LeetcodeIcon fontSize="large" />,
   ];
-  const iconsLinks = ['https://twitter.com/oscarhillz' ,'https://www.linkedin.com/in/oscarhillz', 'https://www.instagram.com/oscarhillz/', 'https://www.github.com/oscarhillz/']
+  
   const quickLinks = ['Home', 'About', 'Projects', 'Services', 'Contact'];
 
 
