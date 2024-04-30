@@ -1,0 +1,29 @@
+
+.AboutHeader{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 1rem;
+
+    & .AboutHeaderIMG{
+        width: 40vh;
+        height: 40vh;
+        background-image: url('../../assets/IMG/FotoOscar.webp');
+        background-size: cover;
+        border-radius: 25px;
+        margin-top: 4rem;
+    }
+
+    & Button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & :first-child{
+            margin-right: 0.5rem;
+        }
+    }
+}
