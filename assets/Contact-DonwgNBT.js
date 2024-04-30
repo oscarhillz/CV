@@ -1,0 +1,1 @@
+import{j as t}from"./index-BYggPdZs.js";function o(){return t.jsxs("div",{className:"Contact",children:[t.jsx("h1",{children:"Contact"}),t.jsx("p",{children:"Coming soon..."})]})}export{o as default};

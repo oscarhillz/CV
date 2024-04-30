@@ -1,1 +1,0 @@
-import{j as e}from"./index-COqtTkf_.js";function r(){return e.jsxs("div",{className:"Services",children:[e.jsx("h1",{children:"Services"}),e.jsx("p",{children:"Coming soon..."})]})}export{r as default};
