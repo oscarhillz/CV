@@ -3,6 +3,7 @@ import './About.css';
 import { Button, Container } from "@mui/material";
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";
+import LineaDeTiempo from "../../components/LineaDeTiempo/LineaDeTiempo";
 
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 
@@ -25,38 +26,32 @@ export default function About() {
       </div>
 
       <Container>
-        <p>I design and develop custom software solutions, spanning both front end and back end. I collaborate with you from the initial phase to the final delivery, ensuring your goals are met and that you achieve the best possible outcomes.</p>
-        <br />
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae deleniti perspiciatis non iste eius ad distinctio iure et repellendus? Repudiandae sequi mollitia error porro debitis, minima consequatur qui sunt illum!</p>
-        <br />
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae deleniti perspiciatis non iste eius ad distinctio iure et repellendus? Repudiandae sequi mollitia error porro debitis, minima consequatur qui sunt illum!</p>
+        <p>I'm a full stack programmer with two years of experience, utilizing React alongside Spring Boot to address various needs.</p>
+        <p>Problem-solving has always piqued my interest, stemming from the inherent flexibility in applying tools in creative and unique ways. My journey began with mathematical problems, swiftly evolving into participation in national math competitions.</p>
       </ Container >
 
       <div className="AboutStory">
         <Container>
         <h1>Background</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque quis, accusantium nostrum officiis dolorum quas porro voluptatibus nulla autem ratione fugiat omnis quibusdam, laudantium dolores! Consectetur explicabo perferendis consequuntur?</p>
-        <br />
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque quis, accusantium nostrum officiis dolorum quas porro voluptatibus nulla autem ratione fugiat omnis quibusdam, laudantium dolores! Consectetur explicabo perferendis consequuntur?</p>
-        <br />
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque quis, accusantium nostrum officiis dolorum quas porro voluptatibus nulla autem ratione fugiat omnis quibusdam, laudantium dolores! Consectetur explicabo perferendis consequuntur?</p>
-        <br />
+
+
+        <LineaDeTiempo />
+
+
 
         Foto
 
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque quis, accusantium nostrum officiis dolorum quas porro voluptatibus nulla autem ratione fugiat omnis quibusdam, laudantium dolores! Consectetur explicabo perferendis consequuntur?</p>
-        <br />
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque quis, accusantium nostrum officiis dolorum quas porro voluptatibus nulla autem ratione fugiat omnis quibusdam, laudantium dolores! Consectetur explicabo perferendis consequuntur?</p>
-        <br />
 
         Foto
 
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque quis, accusantium nostrum officiis dolorum quas porro voluptatibus nulla autem ratione fugiat omnis quibusdam, laudantium dolores! Consectetur explicabo perferendis consequuntur?</p>
-        <br />
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque quis, accusantium nostrum officiis dolorum quas porro voluptatibus nulla autem ratione fugiat omnis quibusdam, laudantium dolores! Consectetur explicabo perferendis consequuntur?</p>
-        <br />
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus itaque quis, accusantium nostrum officiis dolorum quas porro voluptatibus nulla autem ratione fugiat omnis quibusdam, laudantium dolores! Consectetur explicabo perferendis consequuntur?</p>
-        <br />
 
         </Container>
       
